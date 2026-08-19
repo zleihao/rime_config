@@ -747,10 +747,9 @@ keyboards:
               character:
                 char: "3"
             width: available
-          - action:
-              character:
-                char: =
+          - action: backspace
             width: available
+            label: 󰗨
             lightModeStyle: *a2
             darkModeStyle: *a2
       - keys:
@@ -815,9 +814,10 @@ keyboards:
               character:
                 char: "9"
             width: available
-          - action: backspace
+          - action:
+              character:
+                char: =
             width: available
-            label: 󰗨
             lightModeStyle: *a4
             darkModeStyle: *a4
       - keys:
