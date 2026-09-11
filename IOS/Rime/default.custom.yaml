@@ -1,0 +1,4 @@
+patch:
+  # 显式部署仓颉所需的全拼反查词典和 prism。
+  schema_list/+:
+    - schema: luna_quanpin

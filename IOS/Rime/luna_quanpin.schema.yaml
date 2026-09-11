@@ -1,0 +1,29 @@
+# Rime schema
+# 仓颉专用全拼反查；词典与拼写规则取自 Windows/data。
+# 独立定义以免引入普通拼音方案的简拼及其他依赖。
+schema:
+  schema_id: luna_quanpin
+  name: 全拼反查
+  version: '0.2'
+
+engine:
+  processors:
+    - speller
+    - selector
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - script_translator
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    __patch:
+      - pinyin:/spelling_correction
+
+translator:
+  dictionary: luna_pinyin
+  prism: luna_quanpin

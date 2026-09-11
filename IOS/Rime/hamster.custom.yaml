@@ -1,4 +1,6 @@
 patch:
+  # 显示候选注释，包括仓颉方案拼音反查时的仓颉字根
+  toolbar/displayCommentOfCandidate: true
   # 下面兩行是導入自定義配色方案文件
   keyboard/colorSchemas:
     __include: custom_color_schemas:/keyboard/colorSchemas

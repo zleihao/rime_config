@@ -12,7 +12,7 @@ schema:
     碼表源自倉頡之友發佈的《五倉世紀版》
     www.chinesecj.com
   dependencies:
-    - rime_ice
+    - luna_quanpin
 
 switches:
   - name: ascii_mode
@@ -78,8 +78,8 @@ abc_segmentor:
     - reverse_lookup  # 與拼音（反查碼）混打
 
 reverse_lookup:
-  dictionary: rime_ice
-  prism: rime_ice
+  dictionary: luna_pinyin
+  prism: luna_quanpin
   prefix: "`"
   suffix: "'"
   tips: 〔拼音〕
@@ -103,4 +103,4 @@ recognizer:
   import_preset: default
   patterns:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
-    reverse_lookup: "^`[a-z]*'?$|^[a-z]+'$ 
+    reverse_lookup: "`[a-z]*'?$|[a-z]+'$"
