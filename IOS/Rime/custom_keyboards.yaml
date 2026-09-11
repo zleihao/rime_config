@@ -454,7 +454,14 @@ keyboards:
                 char: z
             width: available
             label: Z
-            # swipe:
+            swipe:
+              - action:
+                  character:
+                    char: "%"
+                label: "%"
+                display: true
+                processByRIME: false
+                direction: up
             #   - action:
             #       shortcutCommand: "#行首"
             #     label: 󰞓
@@ -504,7 +511,7 @@ keyboards:
                     char: "#"
                 label: "#"
                 display: true
-                processByRIME: true
+                processByRIME: false
                 direction: up
           - action:
               character:
@@ -830,6 +837,7 @@ keyboards:
           - action:
               character:
                 char: .
+            processByRIME: false
             width: available
             lightModeStyle: *a3
             darkModeStyle: *a3
@@ -2143,7 +2151,14 @@ keyboards:
                 char: z
             width: available
             label: Z
-            # swipe:
+            swipe:
+              - action:
+                  character:
+                    char: "%"
+                label: "%"
+                display: true
+                processByRIME: false
+                direction: up
             #   - action:
             #       shortcutCommand: "#行首"
             #     label: "-"
@@ -2193,7 +2208,7 @@ keyboards:
                     char: "#"
                 label: "#"
                 display: true
-                processByRIME: true
+                processByRIME: false
                 direction: up
           - action:
               character:
@@ -2752,7 +2767,14 @@ keyboards:
                 char: z
             width: available
             label: Z
-            # swipe:
+            swipe:
+              - action:
+                  character:
+                    char: "%"
+                label: "%"
+                display: true
+                processByRIME: false
+                direction: up
             #   - action:
             #       shortcutCommand: "#行首"
             #     label: ⇤
@@ -2802,8 +2824,8 @@ keyboards:
                     char: "#"
                 label: "#"
                 display: true
-                processByRIME: true
-                direction: down
+                processByRIME: false
+                direction: up
           - action:
               character:
                 char: v
@@ -3128,6 +3150,7 @@ keyboards:
           - action:
               character:
                 char: .
+            processByRIME: false
             width: available
             lightModeStyle: *a3
             darkModeStyle: *a3
