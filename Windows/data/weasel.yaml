@@ -16,7 +16,7 @@ style:
   display_tray_icon: false # 显示系统托盘图标
 
   fullscreen: false # 全屏候选词窗口
-  inline_preedit: true # 在光标位置显示预编辑文本
+  inline_preedit: false # 在候选窗内显示预编辑文本，以支持翻页箭头
   preedit_type: composition # 预编辑文本类型
   mouse_hover_ms: 0 # 鼠标悬停选词响应时间，若设置过低，鼠标在候选框上时会影响选词，值为 0 或将这行注释禁用此功能
   paging_on_scroll: false # 鼠标滚轮翻页候选词
@@ -60,6 +60,8 @@ preset_color_schemes:
     hilited_label_color: 0xA483EC
     hilited_mark_color: 0x7A40EC
     label_color: 0x888785
+    prevpage_color: 0x888785 # 上一页箭头颜色
+    nextpage_color: 0x888785 # 下一页箭头颜色
     text_color: 0x8100EB
     shadow_color: 0x20000000
 
@@ -76,6 +78,8 @@ preset_color_schemes:
     candidate_text_color: 0xe9e9ea
     comment_text_color: 0x999999
     label_color: 0x999999
+    prevpage_color: 0x999999 # 上一页箭头颜色
+    nextpage_color: 0x999999 # 下一页箭头颜色
     shadow_color: 0x808080
 
   win10:
@@ -90,6 +94,8 @@ preset_color_schemes:
     hilited_comment_text_color: 0xffffff
     hilited_label_color: 0xffffff
     label_color: 0x888888
+    prevpage_color: 0x888888 # 上一页箭头颜色
+    nextpage_color: 0x888888 # 下一页箭头颜色
 
   macos_light:
     author: "一方<liuour@gmail.com>"
@@ -104,6 +110,8 @@ preset_color_schemes:
     candidate_text_color: 0x3c3c3c
     comment_text_color: 0x999999
     label_color: 0x999999
+    prevpage_color: 0x999999 # 上一页箭头颜色
+    nextpage_color: 0x999999 # 下一页箭头颜色
 
   macos12_light:
     name: "高仿亮色 macOS"
@@ -114,6 +122,8 @@ preset_color_schemes:
     candidate_text_color: 0xD8000000
     comment_text_color: 0x3F000000
     label_color: 0x7F7F7F
+    prevpage_color: 0x7F7F7F # 上一页箭头颜色
+    nextpage_color: 0x7F7F7F # 下一页箭头颜色
     hilited_candidate_back_color: 0xD05925
     hilited_candidate_text_color: 0xFFFFFF
     hilited_comment_text_color: 0x808080
@@ -130,6 +140,8 @@ preset_color_schemes:
     candidate_text_color: 0xE8E8E8
     comment_text_color: 0x3F000000
     label_color: 0x7C7C7C
+    prevpage_color: 0x7C7C7C # 上一页箭头颜色
+    nextpage_color: 0x7C7C7C # 下一页箭头颜色
     hilited_candidate_back_color: 0xDA6203
     hilited_candidate_text_color: 0xFFFFFF
     hilited_comment_text_color: 0x808080
@@ -146,6 +158,8 @@ preset_color_schemes:
     hilited_label_color: 0x6F6F6F # 高亮序号颜色
     hilited_mark_color: 0x00000000 # 此项不生效
     label_color: 0x6F6F6F # 候选数字颜色
+    prevpage_color: 0x6F6F6F # 上一页箭头颜色
+    nextpage_color: 0x6F6F6F # 下一页箭头颜色
     shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
     text_color: 0x000000 # 拼音文字颜色
 
@@ -158,6 +172,8 @@ preset_color_schemes:
     hilited_label_color: 0x727272 # 高亮序号颜色
     hilited_mark_color: 0xFFD8A6 # 此项生效，前面那|的颜色，更新到支持的小狼毫 CI 版本才会生效
     label_color: 0x727272 # 候选数字颜色
+    prevpage_color: 0x727272 # 上一页箭头颜色
+    nextpage_color: 0x727272 # 下一页箭头颜色
     shadow_color: 0x20000000 # 阴影颜色，新版小狼毫 CI 更改了绘制，若无法看到阴影，请更改为 000000，观察是否能正常绘制阴影
     text_color: 0x000000 # 拼音文字颜色
 

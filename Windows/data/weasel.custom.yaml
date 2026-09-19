@@ -6,3 +6,7 @@ customization:
   rime_version: 1.8.5
 patch:
   "style/color_scheme": Lumk_dark
+  # 翻页箭头需要在候选窗内显示拼音，并指定箭头颜色。
+  "style/inline_preedit": false
+  "preset_color_schemes/Lumk_dark/prevpage_color": 0x999999
+  "preset_color_schemes/Lumk_dark/nextpage_color": 0x999999
